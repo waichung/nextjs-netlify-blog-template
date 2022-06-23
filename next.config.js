@@ -1,7 +1,7 @@
 module.exports = {
   images: {
     domains: ["localhost"],
-    // loader: "cloudinary",
+    loader: "cloudinary",
   },
   // pageExtensions: ["tsx"],
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
