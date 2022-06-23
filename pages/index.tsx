@@ -9,6 +9,7 @@ import { countPosts, listPostContent, PostContent } from "lib/posts";
 import { listTags, TagContent } from "lib/tags";
 import config from "lib/config";
 import PostList from "src/components/PostList";
+import { useEffect } from "react";
 
 type Props = {
   posts: PostContent[];
@@ -28,6 +29,15 @@ export default function Index({
 }: Props) {
   const heroPost = posts[0];
   const morePosts = posts.slice(1);
+
+  useEffect(() => {
+    if (window.location.href.includes("invite_token")) {
+      window.location.href = window.location.href.replace(
+        "#invite_token",
+        "admin/#invite_token"
+      );
+    }
+  }, []);
   return (
     <>
       <Layout preview={preview}>
