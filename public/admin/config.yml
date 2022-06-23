@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+local_backend: true
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
@@ -24,6 +25,9 @@ collections:
           - label: "Site title"
             name: "site_title"
             widget: "string"
+          - label: "Color"
+            name: "base_color"
+            widget: "string"
           - label: "Site description"
             name: "site_description"
             widget: "string"
@@ -41,6 +45,11 @@ collections:
           - label: "GitHub account"
             name: "github_account"
             widget: "string"
+          - label: "Gallery"
+            name: "galleryImages"
+            widget: "list"
+            summary: "{{fields.image}}"
+            field: { label: Image, name: image, widget: image }
 
   - name: "meta"
     label: "Meta"
@@ -87,6 +96,14 @@ collections:
                 name: "name"
                 widget: "string"
                 hint: "Tag name for displaying on the site"
+              - label: "Featured Image"
+                name: "thumbnail"
+                widget: "image"
+                choose_url: true
+                default: "/uploads/chocolate-dogecoin.jpg"
+                media_library:
+                  config:
+                    multiple: true
 
   - name: "posts"
     label: "Posts"

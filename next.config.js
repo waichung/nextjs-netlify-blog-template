@@ -1,5 +1,9 @@
-module.exports = ({
-  pageExtensions: ["tsx"],
+module.exports = {
+  images: {
+    domains: ["localhost"],
+    // loader: "cloudinary",
+  },
+  // pageExtensions: ["tsx"],
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.module.rules.push(
       ...[
@@ -16,4 +20,4 @@ module.exports = ({
     );
     return config;
   },
-});
+};

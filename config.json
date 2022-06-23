@@ -1,7 +1,7 @@
 {
+  "site_title": "fiat.wiki",
+  "twitter_account": "@my-account",
   "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
   "site_keywords": [
     {
       "keyword": "Next.js"
@@ -13,7 +13,21 @@
       "keyword": "React"
     }
   ],
-  "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "site_description": "we are all fucked.",
+  "galleryImages": [
+    "/images/yen.jpeg",
+    "/images/us.jpg",
+    "/images/singapore.jpeg",
+    "/images/pound.jpeg",
+    "/images/eurp.jpeg",
+    "/images/aussie.jpeg",
+    "/images/untitled.png",
+    "/images/purple.png",
+    "/images/pink.png",
+    "/images/kiss.png",
+    "/images/blue.png"
+  ],
+  "github_account": "wutali",
+  "base_color": "#597D35",
+  "posts_per_page": 5
 }

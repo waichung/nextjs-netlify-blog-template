@@ -7,11 +7,13 @@ import { fetchPostContent } from "../../lib/posts";
 import fs from "fs";
 import yaml from "js-yaml";
 import { parseISO } from "date-fns";
-import PostLayout from "../../components/PostLayout";
+import PostLayout from "src/components/PostLayout";
 
 import InstagramEmbed from "react-instagram-embed";
 import YouTube from "react-youtube";
 import { TwitterTweetEmbed } from "react-twitter-embed";
+import Layout from "@/components/layout";
+import Container from "@/components/container";
 
 export type Props = {
   title: string;

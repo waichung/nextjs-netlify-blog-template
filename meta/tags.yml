@@ -1,13 +1,19 @@
 tags:
   - slug: document
     name: document
+    thumbnail: /images/aussie.jpeg
   - slug: mock
     name: mock
+    thumbnail: /images/kiss-mark.png
   - slug: style
     name: style
+    thumbnail: /images/bayc-8746.webp
   - slug: license
     name: license
+    thumbnail: /images/bayc-8746.webp
   - slug: mdx
     name: mdx
+    thumbnail: /images/bayc-8746.webp
   - slug: markdown
     name: markdown
+    thumbnail: /images/bayc-8746.webp
