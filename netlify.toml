@@ -5,3 +5,5 @@
 [context.production]
   environment = { NETLIFY_NEXT_PLUGIN_SKIP = "true" }
 
+[context.deploy-preview]
+  environment = { NETLIFY_NEXT_PLUGIN_SKIP = "true" }
