@@ -1,6 +1,5 @@
 import Container from "./container";
 import config from "@/lib/config";
-import Image from "next/image";
 
 export default function Footer() {
   const description = config.site_description;
@@ -42,7 +41,7 @@ export default function Footer() {
                   position: "relative",
                 }}
               >
-                <Image layout="fill" objectFit="contain" src={imgSrc} />
+                <img src={imgSrc} />
               </div>
             ))}
           </div>

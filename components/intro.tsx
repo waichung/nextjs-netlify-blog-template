@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Container from "@/components/container";
@@ -51,12 +50,7 @@ function Intro({ thumbnail, title }: any) {
                 position: "relative",
               }}
             >
-              <Image
-                src={thumbnail}
-                objectFit="contain"
-                layout="fill"
-                alt="thumbnail"
-              />
+              <img src={thumbnail} alt="thumbnail" />
             </div>
           ) : (
             ""

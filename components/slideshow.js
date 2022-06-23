@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import Image from "next/image";
 
 export default class AutoPlayMethods extends Component {
   constructor(props) {
@@ -29,10 +28,9 @@ export default class AutoPlayMethods extends Component {
         <Slider ref={this.setRef} {...settings}>
           {this.props.images.map((imgSrc) => (
             <div className="testtest" key={imgSrc}>
-              <Image
+              <img
+                style={{ height: "100%", width: "auto" }}
                 src={imgSrc}
-                layout="fill"
-                objectFit="contain"
                 alt={imgSrc}
               />
             </div>
