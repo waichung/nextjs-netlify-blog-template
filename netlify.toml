@@ -1,3 +1,7 @@
 [build]
   publish = "dist"
   command = "npm run export"
+
+[context.production]
+  environment = { NETLIFY_NEXT_PLUGIN_SKIP = true }
+
