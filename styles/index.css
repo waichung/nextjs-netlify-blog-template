@@ -14,13 +14,14 @@
 .testtest {
   height: 100px; 
   width: 100px; 
+  min-width: 100px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 
 .slick-track {
-  overflow: hidden;
+  /* overflow: hidden; */
 }

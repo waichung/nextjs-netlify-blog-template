@@ -14,17 +14,15 @@ export default class AutoPlayMethods extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 4.5,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 0,
       cssEase: "linear",
       speed: 8000,
       draggable: false,
-      variableWidth: true,
+      // variableWidth: true,
       pauseOnHover: false,
-      rows: 1,
-      slidesPerRow: 1,
     };
     return (
       <div style={{ marginBottom: 100 }}>
@@ -32,7 +30,7 @@ export default class AutoPlayMethods extends Component {
           {this.props.images.map((imgSrc) => (
             <div className="testtest" key={imgSrc}>
               <img
-                style={{ height: "100%", width: "auto" }}
+                style={{ height: "100%", width: "auto", margin: "auto" }}
                 src={imgSrc}
                 alt={imgSrc}
               />

@@ -15,17 +15,15 @@
   ],
   "site_description": "we are all fucked.",
   "galleryImages": [
-    "/images/yen.jpeg",
-    "/images/us.jpg",
-    "/images/singapore.jpeg",
-    "/images/pound.jpeg",
-    "/images/eurp.jpeg",
-    "/images/aussie.jpeg",
     "/images/untitled.png",
     "/images/purple.png",
     "/images/pink.png",
     "/images/kiss.png",
-    "/images/blue.png"
+    "/images/blue.png",
+    "/images/blue.png",
+    "/images/kiss.png",
+    "/images/purple.png",
+    "/images/untitled.png"
   ],
   "github_account": "wutali",
   "base_color": "#597D35",
