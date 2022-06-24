@@ -6,19 +6,21 @@
   filter: grayscale(1);
 }
 
-/* the slides */
-.slick-slide {
-  margin: 0 27px;
-  width: 200px !important;
+.slick-slider {
+  height: 50px;
 }
   
-/* the parent */
-/* .slick-list {
-  margin: 0 -27px;
-} */
 
 .testtest {
   height: 100px; 
   width: 100px; 
   position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.slick-track {
+  overflow: hidden;
 }

@@ -22,6 +22,9 @@ export default class AutoPlayMethods extends Component {
       speed: 8000,
       draggable: false,
       variableWidth: true,
+      pauseOnHover: false,
+      rows: 1,
+      slidesPerRow: 1,
     };
     return (
       <div style={{ marginBottom: 100 }}>
